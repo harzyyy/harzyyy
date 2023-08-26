@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Righteous", cursive;
+}
+
+body {
+  font-family: "Righteous", cursive;
+  text-align: center;
+  background-color: #dbd7c8;
+}
+
+.kalkulator {
+  background-color: white;
+  box-shadow: 0 0 10px rgb(61, 6, 212);
+  width: 320px;
+  margin: 80px auto;
+  padding: 20px 15px;
+  border-radius: 15px;
+}
+
+.kalkulator-hasil {
+  background-color: white;
+  padding: 50px 5px 0;
+  height: auto;
+  border: none;
+  color: black;
+  text-align: right;
+  font-size: 3rem;
+}
+
+.kalkulator-hasil,
+.kalkulator-tombol {
+  width: 100%;
+}
+
+.kalkulator-tombol {
+  margin-top: 15px;
+}
+
+.isi {
+  display: flex;
+}
+
+button {
+  height: 70px;
+  font-size: 1rem;
+  width: 30%;
+  border-radius: 50px;
+  border: 8px solid white;
+  cursor: pointer;
+}
+
+.angka {
+  background-color: rgba(50, 10, 228, 0.765);
+  color: white;
+}
+
+.angka:hover {
+  background-color: rgba(32, 16, 80, 0.765);
+}
+
+.operator,
+.hapus-semua,
+.hasil-akhir,
+.persen,
+.titik {
+  background-color: rgba(50, 10, 228, 0.765);
+  color: rgb(236, 232, 236);
+}
+
+.operator:hover,
+.hapus-semua:hover,
+.hasil-akhir:hover,
+.persen:hover,
+.titik:hover {
+  background-color: rgba(32, 16, 80, 0.765);
+  color: white;
+}
+
+.hapus-semua,
+.hasil-akhir {
+  width: 60%;
+}
